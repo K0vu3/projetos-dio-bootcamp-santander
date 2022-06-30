@@ -1,0 +1,128 @@
+body {
+    width: 100%;
+    min-height: 800px;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper {
+    display: flex;
+    width: 70%;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foto-celular {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-celular img {
+    height: 50rem; 
+    margin-left: 180px;
+}
+
+.conta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grupo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    padding: 30px 55px;
+    margin-bottom: 15px;
+    background-color: white;
+    width: 80%;
+}
+
+.grupo-login {
+    min-height: 250px;
+}
+
+.foto-perfil img {
+    height: 115px;
+    border-radius: 50%;
+}
+
+.login {
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.remover {
+    color: #0095f6;
+}
+
+.grupo p {
+    color: gray;
+    margin-bottom: 2px;
+}
+
+.grupo span {
+    color: #0095f6;
+    font-weight: bold;
+}
+
+.obtenha-aplicativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100px;
+    justify-content: center;
+    padding: 1.3rem 0;
+}
+
+.baixar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.google {
+    background-image: url(../img/googleplay-button.png);
+}
+
+.apple {
+    background-image: url(../img/apple-button.png);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    color: gray;
+    font-size: 13px;
+    margin: 6px;
+}
